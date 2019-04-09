@@ -1,0 +1,61 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* =Main */
+#intro {
+    height: 10vh;
+    background: plum;
+    text-align: top;
+}
+
+#intro .content {
+    position: absolute;
+    left: 18%;
+    transform: translate(-50%, -10%);
+}
+
+/* ==========================================================================
+   Table Edits
+   ========================================================================== */
+
+td{
+    padding-bottom: 15px;
+    padding-top:15px;
+    padding-left:2em;
+    padding-right:2em;
+    border: black 5px;
+}
+
+td:hover{
+    background-color:white;
+}
+
+tr{
+    background-color: grey;
+}
